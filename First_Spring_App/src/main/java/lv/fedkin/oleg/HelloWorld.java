@@ -1,4 +1,4 @@
-package com.tutorialspoint;
+package lv.fedkin.oleg;
 
 public class HelloWorld {
     private String message;
