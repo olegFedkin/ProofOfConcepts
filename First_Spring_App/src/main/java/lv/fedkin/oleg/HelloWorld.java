@@ -16,6 +16,6 @@ public class HelloWorld {
     }
 
     public void destroy() {
-        System.out.println("Bean will destroy now.");
+        System.out.println("Bean will destroy now. ");
     }
 }
