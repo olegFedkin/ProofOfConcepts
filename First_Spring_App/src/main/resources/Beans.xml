@@ -9,4 +9,6 @@
           class="lv.fedkin.oleg.HelloWorld">
         <property name="message" value="Hello World!"/>
     </bean>
+
+    <bean class="lv.fedkin.oleg.InitHelloWorld"/>
 </beans>
