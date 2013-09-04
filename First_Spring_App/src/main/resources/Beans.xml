@@ -5,17 +5,8 @@
        default-init-method="init"
        default-destroy-method="destroy">
 
-    <bean id="beanTeamplate" abstract="true">
-        <property name="message1" value="Hello World!"/>
-        <property name="message2" value="Hello Second World!"/>
-        <property name="message3" value="Namaste India!"/>
-    </bean>
-
-    <bean id="helloIndia" class="lv.fedkin.oleg.HelloIndia"
-          parent="beanTeamplate">
+    <bean id="helloWorld" class="lv.fedkin.oleg.HelloWorld">
         <property name="message1" value="Hello India!"/>
-        <property name="message3" value="Namaste India!"/>
+        <property name="message2" value="Hello Second World!"/>
     </bean>
-
-    <bean class="lv.fedkin.oleg.InitHelloWorld"/>
 </beans>
