@@ -1,4 +1,4 @@
-package lv.fedkin.oleg;
+package lv.fedkin.oleg.web;
 
 public class HelloWorld {
     private String message1;
